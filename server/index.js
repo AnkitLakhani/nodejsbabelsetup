@@ -1,3 +1,4 @@
 import test from './test'
+import {PORT,URL} from '../config'
 
-test("babel working")
+test(`babel is working and  running on url:${URL} on port:${PORT} `)
